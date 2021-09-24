@@ -2,5 +2,15 @@
 	"FileVersion": 3,
 	"EngineAssociation": "{954A88D0-4728-895C-5B5C-7599CAF9BFD3}",
 	"Category": "",
-	"Description": ""
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Shooter",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
 }
